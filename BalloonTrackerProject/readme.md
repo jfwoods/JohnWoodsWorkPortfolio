@@ -5,6 +5,8 @@ This project began back in April 2023, when I was a student in Dr. Ridley's Engi
 
 Come launch time, and the balloons launch! Only to lose communication with the tracking system. The next couple days were a little hectic, as we had no idea where our payloads had gone. We knew this was a possibility, but it saddened the class nontheless. Fortuneately, both balloons launched had crashed into fields in southeast Michigan, and were recovered by the landowners and returned to us. This was when work on the next-gen tracking system began.
 
+(Skip ahead to the [design page](./design+photos.md) for design pictures and thoughts, otherwise keep reading for high-level requirements & system architecture.)
+
 ---
 
 ## Design Goals
@@ -27,5 +29,10 @@ With those goals in mind, we came up with this plan:
 5. Include a temperature sensor and battery voltage measurement to transmit along with the location data. Useful for making sure the battery is okay and the board isn't going to freeze. 
 6. Include LoRa functionality with this [breakout board](https://www.adafruit.com/product/3072) so that potential communication with student payloads is possible, if the students include one of these modules on their board as well. 
 
+---
+
+## Design
+
+With that out of the way, it was time to start drawing schematics and laying traces! Head to the [design page](./design+photos.md) for more on that.
 
 [^1]: Single Board Computer

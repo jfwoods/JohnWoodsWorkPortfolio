@@ -22,7 +22,7 @@ When we first sat down to begin planning, we came up with these goals:
 
 ## System Architecture
 With those goals in mind, we came up with this plan:
-1. Use an Arduino Nano Every as the main 'brains' of the project. These are easily accessible SBCs [^1] that would make maintence and replication of this project much simpler. We thought about soldering a processor to each tracker, like an ATmega 2560 or ATmega 328p, but decided against it for the reasons I listed.
+1. Use an Arduino Nano Every as the main 'brains' of the project. These are easily accessible SBCs [^1] that would make maintenance and replication of this project much simpler. We thought about soldering a processor to each tracker, like an ATmega 2560 or ATmega 328p, but decided against it for the reasons I listed.
 2. Use the DRA818V HAM radio module as the primary communication device. I would design a board around this module, and Eric would write the software to make it do what we needed. 
 3. Use an Iridium satellite modem as the secondary communication method. We liked the RockBlock 9603, and the university had a couple of them for us to test with. Great little devices. 
 4. Instead of using a [GPS breakout board](https://www.adafruit.com/product/746?gclid=Cj0KCQjwgNanBhDUARIsAAeIcAtAeNtzSEiQcC9UHOvohR2_PsaDv65w-8E68LjxnSKLT4-7cJbT-toaAkXZEALw_wcB) like the students in the class did on their payloads, we were going to integrate a GPS IC onto the board. We chose the uBlox MAX-M10-S, a great high-performance GPS chip with fantastic documentation. 
